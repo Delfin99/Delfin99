@@ -1,0 +1,10 @@
+Stream
+
+	- InputStream
+
+	- PrintStream
+
+
+		- character
+
+		- byte

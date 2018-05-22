@@ -1,0 +1,21 @@
+final keyword
+
+	- it is used to restrict the user
+
+	- can be used in many context
+
+ 
+1. variable 
+
+	- if you make any variable as final, you cannot change the value of final variable
+
+2. method
+
+	- if you make any method as final, you cannot ovrride it
+
+3. class
+
+	- if you make nay class as final, you cannot extend it (= no inheritance)
+
+
+

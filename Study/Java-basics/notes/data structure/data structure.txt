@@ -1,0 +1,28 @@
+data structure
+
+	- list
+
+		-> it is different with Array
+
+			-> search, add, delete
+
+			-> efficient memory management
+
+			-> it doesn't have to the length of array in advance
+
+				-> reduces the loss of memory
+
+		-> there are two list class provided by Java
+
+			Array List 
+
+			Linked List
+
+			HashMap class
+
+
+				-> stack
+
+				-> queue
+
+				-> hash table

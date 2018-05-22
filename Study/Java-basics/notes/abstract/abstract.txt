@@ -1,0 +1,10 @@
+abstract
+
+abstract class
+
+		- it has a role that prevent to let a class to be instantization
+
+abstract method
+
+		- it has a role that a subclass inherited by superclass define the body part of the method by using 'abstract'
+

@@ -1,0 +1,19 @@
+constructor
+
+	- default constructor
+
+	- a constructor initializes an object when it is created
+
+	- it has the same name as its class and is syntactically similar to a method
+
+	- however, constructors have no explicit return type
+
+	- all classes have constructors, whether you define one or not, because Java automatically provides a default constructor that initializes all memer variables to zero.
+
+	- however, once you define your own constructor, the default constructor is no longer used
+
+
+
+Instantiation 
+
+	- the 'new' keyword is used to create the object

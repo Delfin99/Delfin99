@@ -1,0 +1,22 @@
+System class 
+
+	- needs "import java.lang.System"
+
+	- have 'in' and 'out' objects
+
+	- 'InputStream' and 'PrintStream' each
+
+
+read method
+
+	- read() 
+
+		-> reads just one byte in InputStream
+
+	- read(byte[] b)
+
+	- read(byte[] b, int off, int len)
+
+		-> second parameter: start point
+
+		-> third parameter: length

@@ -1,0 +1,26 @@
+print method / println method
+
+	- the 'out' object of 'PrintStream' class provides several output methods
+
+	print vs println
+
+	print 
+
+		- implements print
+
+	println
+
+		- same as print method
+
+		- but, it include 'new line function(= \n)'
+
+
+	printf
+
+		- same as for C language
+
+		- e.g
+
+			System.out.printf("number use: %10d \n", 5439);
+
+			System.out.printf("float use: %10.3f \n", 94.3852f);

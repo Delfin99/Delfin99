@@ -1,0 +1,5 @@
+constructor with overloading
+
+	- it accepts overloading
+
+		-> by matching number of parameter of each constructor

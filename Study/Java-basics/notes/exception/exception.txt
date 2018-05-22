@@ -1,0 +1,37 @@
+Exception
+
+	- it is an event that disrupts the normal flow of the program
+
+	- it is an object which is thrown at runtime
+
+What is exception handing
+
+	- it is a mechanism to handle errors such as ClassNotFound, IO, SQL, Remote etc
+
+
+
+	try 
+
+		- used to catch exceptions that might be thrown as you program executes
+
+		- contains set of statements where an exception can occur
+
+
+	catch
+
+		- it is where you handle the exceptions
+
+		- a single try block can have several catch blocks associated with it
+
+	finally
+
+		- must execute whether an exception occurs or not
+
+
+
+	When 'System.in.read()' is used, 'try ~ catch' must be used
+
+	'throws' also can be used, instead of 'try ~ catch'
+
+
+
