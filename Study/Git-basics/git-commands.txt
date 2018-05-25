@@ -5,3 +5,47 @@ git log
 	- git log --graph
 
 	- git log --decorate
+
+	- git log --no-decorate
+
+	- git log --stat
+
+	- git log -p
+
+	- git shortlog
+
+		- git shortlog -n
+
+	- git log --pretty=format:"<String>"
+
+		- %cn -> the committer name
+
+		- %h -> abbreviated commit hash
+
+		- %cd -> the committer date
+
+	- git log -<n>
+
+		- e.g. git log 3
+
+	- git log --after=""
+
+	- git log --before=""
+
+	- git log --after="" --before=""
+
+	- git log --since="" --until=""
+
+		- e.g. 2017-6-5
+
+		- yesterday
+
+		- 1 week ago
+
+	- git log --author=""
+
+		- e.g. "Delfin99"
+
+		- e.g. email
+
+		- e.g. "John\|Mary" -> or
