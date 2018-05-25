@@ -49,3 +49,10 @@ git log
 		- e.g. email
 
 		- e.g. "John\|Mary" -> or
+
+
+git mv <source> <destination>
+
+git mkdir <folder>
+
+git rmdir <folder>
