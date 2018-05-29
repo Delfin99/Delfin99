@@ -74,3 +74,8 @@ git branch -d <branchName>
 	- deletes the branch.
 
 git checkout <branch>
+
+
+git reset --hard HEAD~
+
+git rebase --continue
