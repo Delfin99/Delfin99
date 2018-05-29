@@ -56,3 +56,21 @@ git mv <source> <destination>
 git mkdir <folder>
 
 git rmdir <folder>
+
+
+
+branch
+
+git branch <branchName>
+
+	- creates a new branch.
+
+git checkout -b <branchName>
+
+	- creates a new branch, switching the branch.
+
+git branch -d <branchName>
+
+	- deletes the branch.
+
+git checkout <branch>
