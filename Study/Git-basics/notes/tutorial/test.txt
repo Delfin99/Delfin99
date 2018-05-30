@@ -1,6 +1,3 @@
 Project
 
-Write your name below
-	
-	
-	I am Jeong
+Write your name below and student number
