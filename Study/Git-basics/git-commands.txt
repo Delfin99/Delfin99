@@ -61,21 +61,34 @@ git rmdir <folder>
 
 branch
 
-git branch <branchName>
+	- git branch <branchName>
 
-	- creates a new branch.
+		- creates a new branch.
 
-git checkout -b <branchName>
+	- git checkout -b <branchName>
 
-	- creates a new branch, switching the branch.
+		- creates a new branch, switching the branch.
 
-git branch -d <branchName>
+	- git branch -d <branchName>
 
-	- deletes the branch.
+		- deletes the branch.
 
-git checkout <branch>
+	- git checkout <branch>
 
 
-git reset --hard HEAD~
 
-git rebase --continue
+reset
+
+	- git reset --hard HEAD~
+
+
+
+rebase
+
+	- git rebase <branch>
+
+		- git rebase --continue
+
+		- git rebase --skip
+
+		- git rebase --abort
