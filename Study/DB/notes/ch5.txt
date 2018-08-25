@@ -1,0 +1,31 @@
+Oracle Starting up and Shutting down
+
+ - nomount
+
+ - mount
+
+ - open
+		
+ - shutdown
+
+Instance
+
+ - Background process + shared memory(shared pool, buffer cache)
+ 
+ - not entity
+
+ - "NOMOUNT" status
+
+Database
+
+ - data file
+
+ - redo log file
+
+ - control file
+
+RAC(Real Application Clusters)
+
+
+
+
