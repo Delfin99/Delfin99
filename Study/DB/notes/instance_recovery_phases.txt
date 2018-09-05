@@ -1,5 +1,0 @@
-The first phase of instance recovery reapplies all changes recorded in the online redo log to the data files.
-
-Because the online redo log contains undo data, rolling forward also regenerates the corresponding undo semgnets.
-
-
