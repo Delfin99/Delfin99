@@ -1,0 +1,39 @@
+ubuntu useful commends
+
+ 1. man
+
+	- manual 
+
+	- ex> man ls, man cd
+
+ 2. gedit 
+
+	- open edditor
+
+ 3. history
+
+	- loads commends that have been used
+
+ 4. ps -ef
+
+	- show working processes
+
+	- pstree(as a tree shape)
+
+ 5. ifconfig 
+
+	- show network infornations
+
+ 6. more, less 
+
+	- show 10 rows of text file
+
+	- show 10 rows from the end of text file
+
+ 7. chmod
+
+	- controls priviliage 
+
+	- ex> chmod 666
+
+
