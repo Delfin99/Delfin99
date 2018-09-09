@@ -1,0 +1,3 @@
+ps -ef | grep XXX
+
+ - show processes executing with relating XXX.
