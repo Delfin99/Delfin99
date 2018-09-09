@@ -1,0 +1,25 @@
+Backups are divided into physical backups and logical backups
+
+ - Logical backup is using SQL statements. Export using exp tool is logical.
+
+ - Physical backup is copying the data files either when the database is up and running (HOT BACKUP) or when the database is shutdown (COLD BACKUP)
+
+
+
+
+In other words,
+
+ - physical backup is to copy for backing up all the physical files that belongs to database.(like data files,control files,log files, executables etc).
+    
+ - In logical backup, you don't take the copies of any physical things,you only extract the data from the data files into dump files.(ex : using export )
+
+
+
+
+
+Physical Backup
+
+The operating system saves the database files onto tape or some other media. This is useful to restire the system to an earlier point whenever needed.
+Logical Backup
+
+In logical backup technique, the IMPORT/EXPORT utilities are used to create the backup of the database. A logical backup backs-up the contents of the database. A logical backup can be used to restore the database to the last backup. However, unlike physical back, it should not be used to create an OS back up copy because restoring using this approach would make it possible to correct the damaged datafiles. Therefore in these situations physical backups should be preferred.
