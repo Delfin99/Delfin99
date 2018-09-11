@@ -1,0 +1,13 @@
+An OLTP system is a common data processing system in today's enterprises. Classic examples of OLTP systems are order entry, retail sales, and financial transaction systems.
+
+OLTP systems are primarily characterized through a specific data usage that is different from data warehouse environments, yet some characteristics, such as having large volumes of data lifecycle-related data usage and importance, are identical.
+
+The main characteristics of an OLTP environment are:
+
+ - Short response time
+
+ - Small transactions
+
+ - Data maintenance operations
+
+ - ....
