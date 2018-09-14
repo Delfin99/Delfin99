@@ -1,9 +1,0 @@
-Object: is a bundle of data and its behaviour(often known as methods).
-
-Object have two characteristics: They have states and behaviors.
-
- - Abstraction: is a process where you show only "relevant" data and "hide" unnecessary details of an object from the user.
-
- - Encapsulation: simply means binding object state(fields) and behaviour(methods) together. If you are creating class, you are doing encapsulation.
-
- - Message passing: A single object by itself may not be very useful. An application contains many objects. One object interacts with another object by invoking methods on that object. It is also referred to as Method Invocation. 

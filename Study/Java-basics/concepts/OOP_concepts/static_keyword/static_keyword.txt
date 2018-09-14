@@ -1,0 +1,28 @@
+1. Static keyword
+
+ - static members belong to the class instead of a specific instance, this means if you make a member static, you can access it without object. 
+
+
+2. Static block 
+
+ - used for initializing the static variables. This block gets executed when the class is loaded in the memory. 
+
+
+3. Static variables
+
+ - static variables are also known as class variables.
+
+ - unlike non-static variables, such variables can be accessed directly in static and non-static methods.
+
+4. Static methods
+
+ - can access class variables(static variables) without using object(instance) of the class.
+
+ 
+5. Static class
+
+ - a class can be made static only if it is a nested class.
+
+  - nested static class doesn't need reference of outer class.
+
+  - a static class cannot access non-static members of the outer class.

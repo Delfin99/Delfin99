@@ -8,3 +8,5 @@ public abstract class Human {
 	// the subclass of the superclass will define the body
 	public abstract void setAge();
 }
+
+
