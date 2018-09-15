@@ -1,0 +1,21 @@
+1. super
+
+ - refers to the objects of immediate parent class.
+
+ - to access the data members of parent class  when both parent and child class have member with same name.
+
+ - to explicitly call the no-arg and parameterized constructor of parent class.
+
+  -> when we create the object of sub class, the new keyword invokes the constructor of chile class, which implicitly invokes the constructor of parent class.
+
+  -> parent class constructor is executed first and then the child class constructor is executed.
+
+  -> because compiler itself adds super() in the constructor of child class.
+
+ - to access the method of parent class when child class has overridden that method.
+
+
+
+
+
+

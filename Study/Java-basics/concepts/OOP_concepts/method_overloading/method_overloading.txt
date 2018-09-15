@@ -1,0 +1,13 @@
+1. method overloading
+
+ - allows a class to have more than one method having the same name, if their argument lists are different.
+
+2. Three ways to overload a method
+
+ - number of parameters
+
+ - data type of parameters
+
+ - sequence of data type of parameters
+
+

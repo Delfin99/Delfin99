@@ -1,6 +1,6 @@
-package code;
+package code.staticVariable;
 
-public class Static {
+public class StaticVariable {
 	public static void main(String[] args) {
 
 		Student a_student = new Student();

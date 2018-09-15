@@ -1,0 +1,15 @@
+1. inheritance
+
+ - the process by which one class acquires the properties(data members) and functionalities(methods) of another class is called "inheritance".
+
+ - inheritance is a process of defining a new class based on an existing class by extending its common data members and methods.
+
+ - the aim of inheritance is to provide the reusability of code so that a class has to write only the unique features and rest of the common properties and functionalities can be extended from the another class.
+
+ - the biggest advantage of inheritance is that the code that is already present in base class(= parent, super) need not be rewritten in the child class(= derived, sub).
+
+2. "extend" keyword
+
+3. IS-A relationship
+
+

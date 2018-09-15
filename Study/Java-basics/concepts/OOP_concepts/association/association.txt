@@ -1,0 +1,21 @@
+1. association
+
+ - association establishes relationship between two seperate classes through their objects.
+
+ - the relationship can be one to one, one to many, many to one, many to many.
+
+
+
+Question. lets discuss difference between Association, Aggregation and Composition.
+
+ - Although all three are related terms, there are some major differences in the way they relate two classes.
+
+ - Association is a relationship between two separate classes. It joins two entirely separate entities.
+
+ - Aggregation is a special form of association which is a unidirectional one way relationship between classes.
+
+    - e.g) Wallet has Money but money doesn't need to have wallet necessarily so its a one directional relationship.
+
+ - Composition is a restricted form of Aggregation in which two entities are highly dependent on each other.
+
+    - e.g) Human and Heart.

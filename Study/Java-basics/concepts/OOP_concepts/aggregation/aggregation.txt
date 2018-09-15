@@ -1,0 +1,17 @@
+1. aggregation
+
+ - aggregation is a special form of association.
+
+ - one way association.
+
+ - "HAS-A" relationship.
+
+ - for example, every student has an address so the relationship between student and address is a "HAS-A" relationship.
+
+2. why we need "Aggregation"?
+
+ - To maintain code re-usability.
+
+ - We don't need to use the same code again and again.
+
+ - just use the reference.

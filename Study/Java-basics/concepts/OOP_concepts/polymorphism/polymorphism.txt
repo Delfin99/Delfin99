@@ -1,0 +1,22 @@
+1. polymorphism
+
+ - allows us to perform a single action in different ways.
+
+ - In other words, polymorphism allows you define one interface and have multiple implementations. 
+
+
+
+2. method overriding
+
+ - runtime polymorphism
+
+3. method overloading 
+
+ - compile tiem polymorphsim
+
+
+4. types of polymorphism 
+
+ - static polymorphism also known as compile time polymorphism
+
+ - dynamic polymorphism also known as runtime polymorphism
