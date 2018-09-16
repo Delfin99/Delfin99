@@ -1,0 +1,25 @@
+1. Instance method
+
+Instance method are methods which require an object of its class to be created before it can be called. To invoke a instance method, we have to create an Object of the class in within which it defined.
+
+Memory allocation: These methods themselves are stored in Permanent Generation space of heap but the parameters (arguments passed to them) and their local variables and the value to be returned are allocated in stack. They can be called within the same class in which they reside or from the different classes defined either in the same package or other packages depend on the access type provided to the desired instance method.
+
+Important Points:
+
+    Instance method(s) belong to the Object of the class not to the class i.e. they can be called after creating the Object of the class.
+    Every individual Object created from the class has its own copy of the instance method(s) of that class.
+    They can be overridden since they are resolved using dynamic binding at run time.
+
+
+2. static method
+
+Static methods are the methods in Java that can be called without creating an object of class. They are referenced by the class name itself or reference to the Object of that class.
+
+Memory Allocation: They are stored in Permanent Generation space of heap as they are associated to the class in which they reside not to the objects of that class. But their local variables and the passed argument(s) to them are stored in the stack. Since they belong to the class so they can be called to without creating the object of the class.
+
+Important Points:
+
+    Static method(s) are associated to the class in which they reside i.e. they can be called even without creating an instance of the class i.e ClassName.methodName(args).
+    They are designed with aim to be shared among all Objects created from the same class.
+    Static methods can not be overridden. But can be overloaded since they are resolved using static binding by compiler at compile time.
+
