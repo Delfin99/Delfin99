@@ -1,0 +1,7 @@
+1. orientation
+
+2. gravity
+
+3. baselineAligned
+
+4. layout_weight
