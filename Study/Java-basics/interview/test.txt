@@ -1,0 +1,73 @@
+Q) Is java platform independent?
+
+- Yes. Java is platform independent language. We can write java code on one platform and run it on another platform. For instance, we can write and compile the java code on windows platform and run the bytecode on Linux or any other platform. I think this is one of the main features of java.
+
+
+Q) What all memory areas are allocated by JVM?
+
+- classloader
+
+- Method area
+
+- Heap
+
+- Stack
+
+- Program Counter Register
+
+- Native Method Stack
+
+
+Q) Java VS C++?
+
+- there are three differences between Java and C++. Java is platform independent while C++ is platform dependent, and Java doesn't support goto statment while C++ supports, and Java doesn't support multiple inheritance while C++ supports.
+
+
+Q) Explain public static void main(String args[])
+
+- public: is an access modifier which means that this method is accessible by any class.
+
+- static: is accessed without creating an object.
+
+- void: means that this method returns null.
+
+- main: this is the name of method.
+
+- String args[]: the args is an array of String type. This contains the commend line arguments that we can pass while running the program.
+
+Q) What is javac?
+
+- javac is a compiler that compiles the source code(.java) and generates bytecode(.class files).
+
+- In simple words javac produces the java bytecode from the source code then JVM is able to execute the bytecode to run the program.
+
+Q) What is an object?
+
+- An object has states and behaviors from a class.
+
+- Objects is created being allocated in Heap area of Memory.
+
+Q) What is class?
+
+- Class is defined as a blueprint or template that we can create the object of that class. Class has the properties and methods.
+
+
+Q) what is the base class of all classes?
+
+- java.lang.Object is the superclass of all classes in java.
+
+
+Q) What is a wrapper class in java?
+
+- Wrapper class converts the primative data type like int, double.. into object data type like integer, double.
+
+- The reason why it is used is that wrapper class is needed for collection API.
+
+- Also, the wrapper class allows null value while the primative data type doesn't allow.
+
+Q) What is Path and ClassPath in java?
+
+- Path specifies the location of .exe files. ClasPath specifies the location of bytecode(.clas files)
+
+
+Q) 
