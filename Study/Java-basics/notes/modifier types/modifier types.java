@@ -17,7 +17,7 @@ Java Access modifiers
 
 							same package				different package
 
-			inside 		in class  out of class		in class 	out of class
+			inside 		in class  		out of class			in class 		out of class
 public		  o 			o 			o 				o 			o
 
 private		  o 			x			x				x			x

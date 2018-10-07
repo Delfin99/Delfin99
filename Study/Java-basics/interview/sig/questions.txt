@@ -1,0 +1,25 @@
+1. what are the benefits principles of object oriented programming?
+
+2. How do you achieve encapsulation?
+
+3. All types of access modifiers?
+
+4. Difference between array and list?
+
+5. Difference between MVP and MVC?
+
+6. Data type limitation on indexing?
+
+7. Architecture point of view when do you use abstract and when do you use interface?
+
+8. Advantages of OOP?
+
+9. How does OOP enable code reuse at design time?
+
+10. Difference between interface and abstract?
+
+11. How to do indexting?
+
+12. Given as list of movies in a csv file, extract the movie name and genre and be able to return a query based on the years and the genre
+
+13. Reverse string?
