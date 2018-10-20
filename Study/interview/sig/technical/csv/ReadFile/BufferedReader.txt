@@ -1,0 +1,17 @@
+Method 1: Using readLine() method of BufferedReader class.
+
+public String readLine() throws IOException
+
+It reads a line of text.
+
+Method 2: Using read() method
+
+public int read() throws IOException
+
+It reads a character of text. Since it returns an integer value, it needs to be explicitly cast as char for reading the content of file.
+
+Complete example
+
+Here I have two txt files myfile.txt and myfile2.txt. In order to demonstrate both the ways to read file. I'm reading first file using readLine() method while the second file is being read using read() method.
+
+

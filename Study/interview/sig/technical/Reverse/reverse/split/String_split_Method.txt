@@ -1,0 +1,11 @@
+The method split() is used for splitting a String into its substrings based on the given delimiter/regular expression. This method has two variants:
+
+String[] split(String regex): It returns an array of strings after splitting an input String based on the delimiting regular expression.
+
+String[] split(String regex, int limit): The only difference between above variation and this one is that it limits the number of strings returned after split up.
+
+For e.g. split("anydelimiter", 3) would return the array of only 3 strings even through the delimiter is present in the string more than 3 times. If the limit is negative then the returned array would be having as many substrings as possible however when the limit is zero then the returned array would be having all the substrings excluding the trailing empty Strings.
+
+It throws PatternSyntaxException if the syntax of specified regular expression is not valid.
+
+

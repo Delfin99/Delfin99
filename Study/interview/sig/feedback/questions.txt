@@ -1,0 +1,17 @@
+1. Java project that I have done
+
+2. The differences between Java and C++
+
+	- why people use C++ instead of Java 
+
+3. Thread
+
+	- deadlock 
+
+4. Whiteboard question 
+
+	- make a method which gets vowels
+
+5. Any question that I want to ask
+
+

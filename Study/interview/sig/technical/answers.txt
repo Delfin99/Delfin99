@@ -1,0 +1,34 @@
+1. I think that the main principles of OOPs are inheritance, polymorphism, encapsulation and absraction.
+
+2. I will bind the variables and the methods that manipulates it together. For instance, let's say I have a private variable then setup getter and setter methods which is able to update and read the variable from another class. 
+
+3. public, private, protected and default
+
+default: when we do not mention any access modifier, it is called default access modifier. It is accessible by the classes of the same package.
+
+public: public memebers and methods can be accessed from anywhere.
+
+private: private members and methods are only accessible within the class.
+
+protected: protected members and methods are accessible by the classes of the same package and subclasses present in any package.
+
+4. Array is used to hold multiple values of same type. An array may hold -
+
+    multiple primitive values of same type , or
+    multiple object references of same type.
+
+Types of array -
+
+    One-dimensional array(1-D), it's a single array that holds multiple values of the same type. For more on Array , you may read, Array in Java- Decodejava.com
+        Two-dimensional array(2-D), it's an array containing multiple arrays within it, where all of these multiple array holding values of a same type. For more on 2D array and how they are declared, initialized and created, you may read Two Dimensional Array in Java
+
+ArrayList : Just like a standard array, ArrayList is also used to store similar elements. In the case of a standard array, we must declare its size before we use it and once its size is declared, it's fixed. While ArrayList is like a dynamic array i.e. we don't need to declare its size, it grows as we add elements to it and it shrinks as you remove elements from it, during the runtime of the program.
+
+
+5. 
+1) abstract class can have abstract and non-abstract methods. An interface can only have abstract methods.
+2) An abstract class can have static methods but an interface cannot have static methods.
+3) abstract class can have constructors but an interface cannot have constructors.
+
+
+	
