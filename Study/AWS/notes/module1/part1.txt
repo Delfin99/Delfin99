@@ -1,0 +1,61 @@
+1. What is Cloud Computing?
+
+2. Before Cloud Computing?
+
+3. Utilizing cloud Computing?
+
+	- Software is flexible.
+	- If your needs change, your software can change much more quickly, easily, and cost-effectively than your hardware.
+
+4. Three Models of Cloud Computing
+
+	- IaaS (= Infrastructure as a Service) : Network Architects
+
+	- PaaS (= Platform as a Service) : Application Developers
+
+	- SaaS (= Software as a Service) : End Users
+
+5. Three Cloud Deployment Models
+
+6. Cloud versus On-Premises
+
+7. What can you do in the cloud?
+
+	- Application Hosting
+	- Backup and Storage
+	- Content Delivery
+	- Websites
+	- Enterprise IT
+	- Databases
+
+8. On-Premises and AWS Comparison
+
+9. Important Cloud Terminology
+
+	- High Availability(Highly Available): Accessible when you need it.
+
+	- Fault Tolerance(Falut Tolerant): Ability to withstand a certain amount of failure and still remain functional.
+
+	- Scalability(Scalable): Ability to easily grow in size, capacity, and/or scope when required. Growth is (usually) based on demand.
+
+	- Elasticity(Elastic): Ability to grow(scale) when required and to reduce in size when resources are no longer needed.
+
+
+10. Summary
+
+	1) Cloud computing is the on-demand delivery of IT resources online with pay-as-you-go pricing.
+
+	2) Three models of cloud computing are:
+
+		- IaaS(Infrastructure as a Service)
+		- PaaS(Platform as a Service)
+		- SaaS(Software as a Service)
+
+	3) Three cloud deployment models:
+
+		- All-in cloud
+		- Hybrid
+		- Private cloud(On-Premises)
+
+	4) Cloud services are available to replace traditional on-premises computing activities.
+
