@@ -1,0 +1,42 @@
+Part 3: What is Amazon Web Services(AWS)?
+
+1. What are Web Services?
+
+	- A web service is any piece of software that makes itself available over the internet or on private(intranet) networks.
+
+	- A standardized format(such as XML or JSON) for the request.
+
+	- An API interaction for the response.
+
+2. What is AWS?
+
+	- Core Services: refers to a broad and deep group of core cloud infrastructure services.
+
+	- Foundational Services: refers to groups of services that offer cloud-based solutions.
+
+	- AWS Developer Tools: is a set of services designed to enable developers and IT operations professionals practicing DevOps to rapidly and safely deliver software.
+
+3. Core services: The Basics.
+
+	- Compute: Amazon EC2, AWS Lambda, AWS Elastic Beanstalk.
+
+	- Networking: Amazon VPC, Amazon Route 53, and Domain Name Services.
+
+	- Storage: Amazon S3, Amazon Glacer, and Amazon CloudFront.
+
+	- Databases: Amazon RDS, Amazon DynamoDB.
+
+	- Management: CloudWatch and AWS CloudFormation.
+
+	- Security & Identity: AWS Identity and Access Management(IAM).
+
+
+4. Access to AWS Services.
+
+	- AWS Management Console.
+
+		- Access on the go with AWS Console Mobile App.
+
+	- AWS Command Line Interface(AWS CLI).
+
+	- Software Development Kits(SDK).
