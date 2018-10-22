@@ -1,5 +1,0 @@
-Part 4: The AWS Cloud Adoption Framework.
-
-1. AWS Cloud Adoption Framework(CAF).
-
-	- 

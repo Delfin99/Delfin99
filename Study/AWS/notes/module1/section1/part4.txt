@@ -1,0 +1,25 @@
+Part 4: The AWS Cloud Adoption Framework.
+
+1. AWS Cloud Adoption Framework(CAF).
+
+	- Perspectives in planning, creating, managing, and supporting a modern IT service.
+
+	- AWS Professional Services created the AWS Cloud Adoption Framework(AWS CAF) to help organizations develop efficient and effective plans for their cloud adoption journey.
+
+	- CAF provides guidelines for establishing, developing, and running AWS environments.
+
+	- Structure for business and IT teams to work together.
+
+2. Six Core Perspectives
+
+	- Business
+
+	- People
+
+	- Governance 
+
+	- Platform
+
+	- Security
+
+	- Operations

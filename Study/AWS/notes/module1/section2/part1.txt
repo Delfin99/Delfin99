@@ -1,0 +1,9 @@
+Part 1: Fundamentals of AWS Pricing.
+
+1. AWS Fundmentals
+
+	- Pay for AWS fundmentals: Compute, Storage, and Outbound data transfer.
+
+	- No charge: Inbound data transfer, and Data transfer between services within the same region.
+
+	- Charge for aggregated outbound.
