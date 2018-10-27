@@ -1,0 +1,50 @@
+AWS Infrastructure
+
+part 1: AWS Global Infrastructure
+
+1. AWS Global Infrastructure
+
+	- Regions
+
+	- Availability Zones
+
+	- Edge Location
+
+2. AWS Data Centers
+	
+	- a data center is a location where actual physical data resides
+
+	- built in clusters in various global regions
+
+3. AWS Regions
+
+	- each region is made up of two or more Availability Zones
+
+	- 18 Regions worldwide
+
+	- communication between Regions uses AWS backbone network connections infrastructure
+
+4. AWS Availability Zones
+	
+	- made up of one or more data centers
+
+	- designed for fault isolation
+
+	- interconnected with other Availability Zones using high-speed private links
+
+5. AWS Edge Locations
+
+	- an Edge location is where users access AWS services
+
+	- used with Amazon CloudFront, a Global Content Delivery Network(CDN), to deliver content to end users with reduced latency
+
+	- regional edge caches used for content with infrequent access
+
+6. AWS Infrastructure Features
+
+	- Elastic and Scalable
+
+	- Fault-tolerant
+
+	- High availability 
+

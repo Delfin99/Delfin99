@@ -1,0 +1,13 @@
+Part 2: AWS Service and Service Category Overview
+
+1. AWS Foundational Services
+
+	- compute
+
+	- storage
+
+	- database
+
+	- networking & content delivery
+
+	- security, identity & compliance
