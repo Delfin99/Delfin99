@@ -1,0 +1,84 @@
+lecture 4
+
+1. why use recursion?
+
+- it allows us to define very clear and elegant code
+
+	- why repeat code when you can reuse existing code
+
+- relationships may be recursive
+
+	e.g. "X is my ancestor if X is my Ancestor's ancestor."
+
+- data is represented recursively and best processed iteratively
+
+	- grammatical structures can contain themselves
+
+	e.g. NP -> (Det)N(PP), PP -> P(NP)
+
+	- ordered data: each element requires the same processing
+
+- allows prolog to perform complex search of a problem space without any dedicated algorithms
+
+2. prolog data objects(terms)
+
+3. structures
+
+- a structure is constructed from a functor(a constant symbol) and one of more components
+
+	e.g. functor(components)
+
+- the components can be of any type: atoms, integers, variables, or structures
+
+- as functor are treated as data objects just like constants they can be unified with variables
+
+4. structure unification
+
+- 2 structures will unify if 
+
+	- the functors are the same,
+
+	- they have the same number of components,
+
+	- and all the components unify
+
+	- (a plain underscore '_' is not bound to any value. By using it you are telling prolog to ignore this argument and not report it)
+
+- a structure may also have another structure as a component
+
+- unification of nested structures works recursively:
+
+	- first it unifies the entire structure,
+
+	- then it tries to unify the nested structures
+
+5. structures = facts?
+
+- the syntax of structures and facts is identical but:
+
+	- structures are not facts as they are not stored in the database as being true(followed by a period '.');
+
+	- structures are generally just used to group data;
+
+	- functors do not have to match predicate names
+
+	e.g. the predicate functor/3
+
+	functor(f(a,b), F, A).
+
+	A = 2	- arity(= number of arguments)
+	F = f 	- functor
+
+	functor([a,b,c], F, A).
+
+	A = 2
+	F = '.'
+
+	functor(mia, F, A).
+
+	A = 0
+	F = mia
+
+	functor(T, f, 7).
+
+	T = f(_, _, _, _, _, _, _) -> there are 7 arguments 

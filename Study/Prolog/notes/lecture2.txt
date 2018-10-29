@@ -1,0 +1,172 @@
+prolog fundamentals
+
+1. anatomy of a program
+
+- a prolog programs are made up of facts and rules
+
+- a fact assert some property of an object, or relation between two or more objects
+
+	e.g. parent(jane, alan).
+
+	can be read as "Jane is the parent of Alan."
+
+- rules allow us to infer that a property or relationship holds based on preconditions.
+
+	e.g. parent(X, Y) :- mother(X, Y).
+
+	can be read as "Person X is the parent of Y if X is Y's mother."
+
+
+2. predicate definitions
+
+3. clauses
+
+- predicate definitions consist of clauses
+
+	e.g. mother(jane, alan). = fact
+
+	parent(P1, P2) :- mother(P1, P2). = rule 
+	
+	parent() -> head
+
+	mother() -> body
+
+- a clauses consists of a head and sometimes a body
+
+- facts don't have a body because they are always true
+
+4. arguments
+
+- a predicate head consists of a predicate name and sometimes some arguments contiained within brackets and separated by commas
+
+	e.g. mother(jane, alan).
+	
+	mother -> predicate name
+
+	jane, alan -> arguments
+
+- a body can be made up of any number of subgoals(calls to other predicate) and terms
+
+- arguments also consist of terms, which can be:
+
+	- constants e.g jane
+
+	- variables e.g Person1 
+
+	- compound terms
+
+5. terms: constants
+
+- numbers:
+
+	- integers
+
+	- floating-point numbers
+
+- atoms or symbolic(non-numeric) constants:
+
+	- always start with a lower case alphabetic character and contain any mixture or letters, digits, and underscores(but no space, punctuation, or an initial capital)
+
+		e.g. abc, big_long_constant, x4_3t
+
+- string constants:
+
+	- are anything between single quotes
+
+		e.g. 'Like this'
+
+6. terms: variables
+
+- variables always start with an upper case alphabetic character or an underscore
+
+- other than the first character they can be made up of any mixture of letters, digits, and underscores
+
+	e.g. X, ABC, _89two5, _very_long_variable
+
+- there are no "types" for variables(or constants) - a variable can take any value
+
+- all prolog variables have a "local" scope:
+
+	- they only keep the same value within a clause
+
+	- the same variable used outside of a clause does not inherit the value(this would be a "global" scope)
+
+7. naming tips
+
+- use a 'verb' 'subject' 'object' structure:
+
+	e.g. wants(john, to_help).
+
+8. using predicate definitions
+
+- command line programming is tedious
+
+- useful commends:
+
+	- compile
+
+		- consult(the name of prolog file).
+
+		- [the name of prolog file].
+
+		- [folder/the name of prolog file].
+
+	- edit
+
+		- edit(the name of prolog file).
+
+	- exit
+
+		- halt.
+
+		- ctrl + D
+
+9. arity
+
+- greetings is predicate with no arguments 
+
+- the number of argumnets a predicate has is called its arity
+
+	e.g. the arity of greetings is zero = greetings/0
+
+- the behaviour of predicates can be made more specific by including more arguments
+	
+	e.g. greetings(hamish) = greetings/1
+
+- the predicate can then behave differently depending on the arguments passed to it
+
+10. using multiple clauses
+
+- different clauses can be used to deal with different arguments
+
+	e.g. greet(hamish) :- write('How are you doin, pal?').
+
+	greet(amelia) :- write('Awfully nice to see you!').
+
+	= "Greet Hamish or Amelia" = a disjunction of goals
+
+- clauses are tried in order from the top of the file
+
+- the first clause to match succeeds(=yes)
+
+11. variables in questions
+
+12. re-trying goals
+
+13. variable clause head
+
+14. ordering of clauses
+
+15. unification
+
+- when two terms match we say that they unify
+
+	- their structures and arguments are compatible
+
+- this can be checked using =/2
+
+16. asking questions of the database
+
+- we can ask about facts directly:
+
+	
