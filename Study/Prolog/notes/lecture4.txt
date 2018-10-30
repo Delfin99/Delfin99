@@ -82,3 +82,21 @@ lecture 4
 	functor(T, f, 7).
 
 	T = f(_, _, _, _, _, _, _) -> there are 7 arguments 
+
+6. lists
+
+7. list unification
+
+8. definition of a list
+
+- lists are recursively defined structures
+
+- this recursiveness is made explicit by the bar notation
+
+	- [Head|Tail]
+
+- Head must unify with a single term
+
+- Tail unifies with a list of any length, including an empty list, [].
+
+	- the bar notation turns everything after the Head into a list and unifies it with Tail
