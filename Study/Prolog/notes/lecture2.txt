@@ -23,9 +23,9 @@ prolog fundamentals
 
 - predicate definitions consist of clauses
 
-	e.g. mother(jane, alan). = fact
+	e.g. mother(jane, alan). => fact
 
-	parent(P1, P2) :- mother(P1, P2). = rule 
+	parent(P1, P2) :- mother(P1, P2). => rule 
 	
 	parent() -> head
 

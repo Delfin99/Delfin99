@@ -16,7 +16,8 @@ lecture 4
 
 	e.g. NP -> (Det)N(PP), PP -> P(NP)
 
-	- ordered data: each element requires the same processing
+	- ordered data: each element 
+	equires the same processing
 
 - allows prolog to perform complex search of a problem space without any dedicated algorithms
 

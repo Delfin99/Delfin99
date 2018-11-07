@@ -1,0 +1,96 @@
+Issues with Associations
+
+One to one 0..1 Optional Associations
+
+	- A major distinction between associations is their multiplicity
+
+	- Reference variables can hold
+
+		- a reference to another object
+
+		- or the null reference
+
+	- So the 'default' muliplicity is '0..1'
+
+Defining the 0..1 Association
+
+	- The association is defined by a field in the 'Account' class holding a reference to an instance of the 'DebitCard' class
+
+	e.g. 
+
+		public class Account {
+
+			private DebitCard theCard;
+		}
+
+One to one 1..1 Mandatory Association
+
+	- Suppose every account has exactly one guarantor
+
+	- Guarantor is mandatory
+
+	- We must not allow null references to Guarantor to be stored in the 'Account' class
+
+		- this must be checked explicitly in code
+
+Defining the 1..1 Association
+
+	- Check that a non-null link value is provided in the constructor for Account
+
+	e.g. 
+
+		public class Account {
+
+			private Guarantor theGuarantor;
+
+			// Constructor
+			public Account(Guarantor g) {
+
+				if (g == null) {
+					// throw NullLinkError
+				}
+
+				theGuarantor = g;
+			}
+
+		}
+
+One to Many 1..n Associations
+
+	- The model shows that it is necessary to identify each account that a manager is responsible for
+
+		- A manager object can be linked to many account objects
+
+	- It is not required to identify the particular manager for a specific account
+
+	- Manager object will require multiple pointer/references(an array of references) to each Account object
+
+One to Many 1..n Associations
+
+	- The Java Vector class solution provides a host of methods for adding, deleting and traversing the account objects
+
+	- The methods in Manager need only deal with its business processing
+
+		- However the addAccount method needs to check for duplicate Accounts
+
+	e.g.  Note the use of Vector collection class
+
+			- Vectors are commonly used instead of arrarys, as they expand automatically when new data is added to them
+
+		public class Manager {
+
+			private Vector theAccounts;
+
+			public void addAccount(Account acc) {
+
+				theAccounts.addElement(acc);
+			}
+
+			public void removeAccount(Account acc) {
+
+				theAccounts.removeElement(acc);
+			}
+		}
+
+
+

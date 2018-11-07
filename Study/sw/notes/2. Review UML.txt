@@ -1,0 +1,33 @@
+Review UML
+
+Unified Modeling Language
+
+UML Definition of Class
+
+	- A Class is a description of a set of objects that share attribute, operations(behaviours), relationship with other objects
+
+	- The purpose of a class is to declare a collection of operations, and attributes that fully describe the structure and behaviour for all obejcts of that class
+
+UML Definition of Object
+
+	- An Object is an instance that originates from a class;
+
+	- It is structured and behaves according to its class
+
+Generalisation
+
+	- UML Definition:
+
+		- Hierarchical relationship between a more general element and a more specific element that is fully consistent with the first element and that adds additional information
+
+Generalisation in Object Classes
+
+	- Arrange real world object classes into hierarchies
+
+	- Models the difference and similarity between classes
+
+Generalisation in Object Classes - Inheritance
+
+	- When two classes are arranged in a hierarchy the more specialised class(subclass) will inherit all the characteristics from the more generalised class(superclass)
+
+	- The subclass will have at least one additional detail not inherited from its superclass

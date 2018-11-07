@@ -1,0 +1,71 @@
+Bidirectional Links
+
+	- Some associations need to be navigated in both directions
+
+		- because references are unidirectional, it will take two references to implement a link
+
+		- the association can be implemented by including a suitable reference field in each of the associated classes
+
+Bi-directional implementation of one to many association
+
+	- For a bi-directional association - as well as Member object containing a Set of Books, a Book object will contain a reference to the Member object that contains it within its Set
+
+Referential Integrity
+
+	- With bi-directional associations, we need to consider how an operation of one class may effect the other associated class
+
+	e.g. 
+
+		- if we had a member object with a set of book objects, each book object will have a reference to the member object
+
+		- if we removed a book from the Set of books in the member object's Set, then we should also set the reference to the member object in the book object to null to maintain referential integrity
+
+Referential Integrity Example - Member Class
+
+	e.g.
+
+	- When borrowing a book, we will create the bi-directional link between the Member object and the Book object
+
+	- As well as adding the book to its Set, it sets the member attributes of the book object to itself
+
+		public boolean borrowBook(Book aBook) {
+
+			if (aBook == null)
+				return false;
+
+			if (books.contains(aBook))
+				return false;
+
+			if (aBook.checkOut()) {
+
+				books.add(aBook);
+				aBook.setMember(this);
+				return true;
+			}
+			else 
+				return false;
+		}
+
+	e.g. 
+
+	- When returing a book, we will remove the link between the Member object and the Book object(in both directions)
+
+	- As well as removing the book from its Set, it removes the member reference of the book object
+
+		public boolean borrowBook(Book aBook) {
+
+			if (aBook == null)
+				return false;
+
+			if (!books.contains(aBook))
+				return false;
+
+			if (aBook.checkIn()) {
+
+				books.remove(aBook);
+				aBook.removeMember(this);
+				return true;
+			}
+			else 
+				return false;
+		}
