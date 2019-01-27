@@ -1,0 +1,85 @@
+lecture 3
+
+1. correction: re-trying goals
+
+2. tests
+
+3. arithmetic operators
+
+	- equality is different from unification
+
+	=/2 checks if two terms unify
+
+	=:=/2 compares the arithmetic value of two expressions
+
+	e.g. X=Y.	- yes
+
+	X=:=Y.	- instantiation error
+
+	X=3, Y=4, X=:=Y.	- yes
+
+4. tests within clauses
+
+5. backtracking
+
+- clauses should be ordered according to specificity
+
+- most specific at top -> universally applicable at bottom
+
+6. reporting answers
+
+- to report back answers we need to
+
+	- put an unistantiated variable in the query
+
+	- instantiate the answer to that variable when the query succceds
+
+	- pass the variable all the way back to the query
+
+7. passing back answers
+
+- to report back answers we need to 
+
+	1. put an unistantiated variable in the query
+
+	2. instantiate the answer to that variable when the query succeeds
+
+	3. pass the variable all the way back to the query
+
+8. head unification
+
+9.satisfying subgoals
+
+- most rules contain calls to other predicates in their body known as subgoals
+
+- these subgoals can match:
+
+	- facts
+
+	- other rules
+
+	- the same rule = a recursive call
+
+10. representing proof using trees
+
+11. recursion using trees
+
+- when a predicate calls itself within its body we say the clause is recursing
+
+12. infitite recursive loop
+
+- if a recursive clause is called with an incorrect goal it will loop as it can neither prove it nor disprove it
+
+13. the central ideas of prolog
+
+	- success/failure
+
+	- matching
+
+	- searching
+
+	- backtracking
+
+- prolog's proof strategy can be represented using AND/OR trees
+
+

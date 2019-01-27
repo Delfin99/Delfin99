@@ -1,0 +1,60 @@
+Basic Concepts
+
+Objects
+
+	- An abstraction of something in the problem domain, reflecting the capabilities of the system to keep information about it, ineract with it, or both
+
+	- Abstraction
+
+		- A form of representation that includes only what is important or interesting from a particular viewpoint, hiding the features deemed irrelevant for the current study
+
+		- e.g. a map, engieering drawing, analyst representation of data...
+
+	- Purpost of Objects
+
+		- They promote understanding of the real world
+
+		- Provide a practical basis for computer implementation
+
+	- Characteristics of Objects
+
+		- State
+
+		- Behaviour
+
+		- Identity
+
+Modelling the Class Hierarchy for Student and GradStudent
+
+	- Class Diagram
+
+		- This diagram may contain additional information 
+
+			e.g. the types of attributes, the signatureof methods, etc
+
+		- Simple methods such as get and set methods are not usually shown on the diagram.
+
+		- A class diagram is intended to give a clear picture of the classes in a system and the relationships between those
+
+
+The "is a" relationship
+
+	- GradStudent extends the Student class
+
+	- We can say that a GradStudent "is a" Student
+
+	- This means we can refer to GradStudent objects as Student objects
+
+	- This has important implications
+
+More Inheritance Terms
+
+	- The superclass(Student) is sometimes called a generalisation and the subclass (GradStudent) is somethies called a specialisation.
+
+	- The terms base class and derived class are also used for the superclass and subclass, respectively
+
+		e.g. 
+
+			Generalisation = base class = superclass
+
+			Specialisation = derived class = subclass

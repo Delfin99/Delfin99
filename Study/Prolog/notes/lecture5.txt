@@ -1,0 +1,79 @@
+lecture 5
+
+List Processing
+
+1. Identifying a list
+
+- Last lecture we introduced lists: [a, [], green(bob)]
+
+- We said that lists are recursively defined structures:
+
+	"An empty list, [], is a list. A structure of the form[X,...] is a list if X is a term and [...] is a list, possibly empty."
+
+- This can be tested using the Head and Tail notation, [H|T], in a recursive rule.
+
+	is_a_list([]). 		-> A term is a list if it is an empty list.
+
+	is_a_list([_|T]) :- is_a_list(T).	-> A term is a list if it has two elements and the second is a list.
+
+2. Base and Recursive Cases
+
+- A recursive definition, whether in prolog or some other language(including English!) needs two things.
+
+- A definition of when the recursion terminates.
+
+	- Without this the recursion would never stop!
+
+	- This is called the base case: is_a_list([]).
+
+	- Almost always comes before recursive clause
+
+- A definition of how we can define the problem in terms of a similar, smaller problem.
+
+	- This is called the recursive case: is_a_list([_|T]) :- is_a_list(T).
+
+- There might be more than one base or recursive case.
+
+3. Focussed Recursion
+
+- To ensure that the predicate terminates, the recursive case must move the problem closer to a solution.
+
+	- If it doesn't it will loop infinitely.
+
+- With list processing this means stripping away the Head of a list and recursing on the Tail.
+
+	is_a_list([_|T]) :- is_a_list(T).
+
+		       -> Head is replaced with an underscore as we don't want to use it.
+
+- The same focussing has to occur when recursing to find a property or fact.
+
+4. Focussed Recursion(2)
+
+5. Focussed Recursion(3)
+
+6. List Processing Predicates: Member/2
+
+7. Quick Aside: Tracing Prolog
+
+8. Tracing Member/2
+
+9. Collecting Results
+
+- When processing data in Prolog there are three ways to collect the results:
+
+	1. Compute result at base case first, then use this result as you backtrack through the program.
+
+	2. Accumulate a result as you recurse into the program and finalise it at the base case.
+
+	3. Recurse on an uninstantiated variable and accumulate results on backtracking.
+
+- There all have different uses, effect the order of the accumulated data differently, and require different degrees of processing.
+
+10. Compute lower result first
+
+11. Using an Accumulator
+
+12. Using an auxiliary predicate
+
+13. Combining lists

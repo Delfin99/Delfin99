@@ -1,0 +1,47 @@
+Review Links
+
+A Simple Class Diagram
+
+	- First compartment contains the name of the class
+
+	- Second compartment contains the attributes(data) that an object of type BankAccount can have
+
+The Object Model
+
+	- The object model is a general way of thinking about the structure of 00 programs
+
+	- The fundamental property of the object model is that computation takes place in and between objects
+
+	- The object model is the common computational model shared by UML and OOP language
+
+
+Role of an Object's Data and Methods
+	- Third compartment contains the operations that an object of type BankAccount can perform
+
+	*note1: accessor and mutator(= getter and setter simply) are not generally modelled
+
+	*note2: In the diagram above, the red squares on the attributes denote that the attributes are private(a minus sign, "-", can also denote this). The green circles on the operations denote that they are public(a plus sign, "+", can also denote this)
+
+Object Links
+
+	- The actual link is provided by the references(circleA and circleB) within the client object - interestingly, this means that only the client "knows" about the link. 
+
+	- In this sense, the link is uni-directional
+
+	*note3: 
+
+		- Compile-time: the time period in which you, the developer, are compiling your code
+
+		- Run-time: the time period which a user is running your piece of software
+
+
+The Object Model
+
+	- The object model is a general way of thinking about the structure of 00 programs
+
+	- The fundamental property of the object model is that computation takes place in and between objects
+
+	- The object model is the common computational model shared by UML and OOP language
+
+
+Role of an Object's Data and Methods
