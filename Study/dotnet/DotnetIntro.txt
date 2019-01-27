@@ -1,0 +1,13 @@
+How to start "Visual Studio Code" 
+
+- It is called ".NET Core" within Unix environment.
+
+- First of all, makes a folder.
+
+- Types 'dotnet new console' or 'dotnet-sdk.dotnet new console'.
+
+- Then, it creates three files like obj folder, Program.cs and vscode.csproj.
+
+- To execute C# file(.cs), types 'dotnet run' or 'dotnet-sdk.dotnet run'.
+
+- The result should be come out with creating bin folder.
