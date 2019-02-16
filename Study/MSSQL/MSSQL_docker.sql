@@ -44,4 +44,8 @@ How to start SQL Server with docker
 
 	- Types 'docker logout'
 
+7. Kills the executing docker process
 
+	- Types 'top' and finds the PID of the docker 
+
+	- Types 'kill <PID>'
