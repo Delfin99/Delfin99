@@ -8,9 +8,7 @@ How to start SQL Server with docker
 
 	- Types 'docker login'
 
-	- ID: gokos7
-	
-	- Password: gokos7lovepp
+	- ID and Password
 
 3. Starts mssql container
 
@@ -18,7 +16,7 @@ How to start SQL Server with docker
 
 4-1. For bash mode,
 
-	- Types 'docker exec -it mssql /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P 'gokos7Lovepp_7'
+	- Types 'docker exec -it mssql /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P 'MyPassword'
 
 4-2. For GUL mode,
 
