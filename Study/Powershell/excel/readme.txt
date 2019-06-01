@@ -1,0 +1,1 @@
+-ComObject is not supported by Mac. Available on Windows Platform
