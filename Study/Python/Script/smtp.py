@@ -1,18 +1,36 @@
-import smtplib
-from email import message
+# SMTP 
 
-from_addr = 'wjdtmdrl12@gmail.com'
-to_addr = 'wjdtmdrl12@gmail.com'
-subject = 'Sending email by Python Script'
-body = 'Test'
+def SendEmail():
+    print('Sending Email')
+    import smtplib
+    fromaddr = 'wjdtmdrl12@gmail.com'
+    toaddrs  = 'wjdtmdrl12@gmail.com'
+    subject = 'Sending email by Python'
+    text = "Hi Seungki,\n\nThis is email for test\n\nThanks,\nSeungki Jeong"
+    # msg = "\r\n".join([
+    #     "From: wjdtmdrl12@gmail.com",
+    #     "To: wjdtmdrl12@gmail.com",
+    #     "Subject: Sending email by Python",
+    #     "",
+    #     "Hi Seungki,",
+    #     "",
+    #     "This is email for test",
+    #     "",
+    #     "Thanks",
+    #     "Seungki Jeong"
+    #     ])
+    msg = """From: %s\nTo: %s\nSubject: %s\n\n%s""" % (fromaddr, toaddrs, subject, text)
+    username = 'wjdtmdrl12@gmail.com'
+    password = 'gokos7lovepp'
+    server = smtplib.SMTP('smtp.gmail.com')
+    server.ehlo()
+    server.starttls()
+    server.login(username,password)
+    server.sendmail(fromaddr, toaddrs, msg)
+    server.quit()
 
-msg = message.Message()
-msg.add_header('from', from_addr)
-msg.add_header('to', to_addr)
-msg.add_header('subject', subject)
-msg.set_payload(body)
-
-server = smtplib.SMTP('smtp.gmail.com', 587)
-server.ehlo()
-server.login(from_addr, 'gokos7lovepp')
-server.send_message(msg, from_addr=from_addr, to_addrs=[to_addr])
+try:
+    SendEmail()
+    print('Sent!')
+except:
+    print('Something went wrong...')
