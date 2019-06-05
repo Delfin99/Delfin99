@@ -1,13 +1,12 @@
 # Send Email by SMTP
 
 # set sender information
-$email = "wjdtmdrl12@gmail.com"
-$password = "gokos7lovepp"
+$email = ""
+$password = ""
 
 
 # set receiver address
-$receiverA = "wjdtmdrl12@gmail.com"
-$receiverB = "D17123466@mydit.ie"
+$receiverA = ""
 
 $receivers = $receiverA
 

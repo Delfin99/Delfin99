@@ -1,8 +1,8 @@
 import smtplib
 
-email = 'wjdtmdrl12@gmail.com'
-pwd = 'gokos7lovepp'
-to = 'wjdtmdrl12@gmail.com'
+email = ''
+pwd = ''
+to = ''
 message = 'This is my message - Simply' 
 
 # connect to the server

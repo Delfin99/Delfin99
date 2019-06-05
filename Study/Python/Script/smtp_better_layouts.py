@@ -4,9 +4,9 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-email = 'wjdtmdrl12@gmail.com'
-pwd = 'gokos7lovepp'
-to = 'wjdtmdrl12@gmail.com'
+email = ''
+pwd = ''
+to = ''
 subject = 'This is the subject' 
 message = 'This is my message - better layouts'
 

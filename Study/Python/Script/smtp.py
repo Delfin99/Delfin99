@@ -3,8 +3,8 @@
 def SendEmail():
     print('Sending Email')
     import smtplib
-    fromaddr = 'wjdtmdrl12@gmail.com'
-    toaddrs  = 'wjdtmdrl12@gmail.com'
+    fromaddr = ''
+    toaddrs  = ''
     subject = 'Sending email by Python'
     text = "Hi Seungki,\n\nThis is email for test\n\nThanks,\nSeungki Jeong"
     # msg = "\r\n".join([

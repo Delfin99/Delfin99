@@ -7,9 +7,9 @@ from email import encoders
 
 import os.path
 
-email = 'wjdtmdrl12@gmail.com'
-pwd = 'gokos7lovepp'
-to = 'wjdtmdrl12@gmail.com'
+email = ''
+pwd = ''
+to = ''
 subject = 'This is the subject' 
 message = 'This is my message - attachments'
 file_location = '/Users/jeong/Delfin99/Study/Python/Scipt/attach.txt'
