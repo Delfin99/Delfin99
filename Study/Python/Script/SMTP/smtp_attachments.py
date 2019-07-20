@@ -7,12 +7,12 @@ from email import encoders
 
 import os.path
 
-email = ''
-pwd = ''
-to = ''
+email = input("Enter Sender email ")
+pwd = input("Enter password ")
+to = input("Enter Receiver email ")
 subject = 'This is the subject' 
 message = 'This is my message - attachments'
-file_location = '/Users/jeong/Delfin99/Study/Python/Scipt/attach.txt'
+file_location = r'/Users/jeong/Delfin99/Study/Python/Script/SMTP/attach.txt'
 
 msg = MIMEMultipart()
 msg['From'] = email
