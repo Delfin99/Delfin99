@@ -1,0 +1,25 @@
+IPC
+
+- Inter Process Communication(IPC)
+- Facilitating communication between different processes.
+- IPC can be offered between:
+	- Related processes
+	- Unrelated processes
+
+File Streams and File Descriptiors
+
+- If we need to perform file operations(IO) to a file, there are 2 options avaiable:
+	- Streams
+	- File Descriptors
+- Streams are represented as File * objects.
+- File descriptors are represented as objects of type int.
+
+Pipes
+
+- A pipe allows processes to communicate with each other (Inter Process Communication - IPC)
+- A process can write date to a pipe and this can be read by another process.
+- The data passes to the pipe follows the FIFO algorithm.
+- The pipe has no name.
+- The pipe as created by a parent process and uses it to communicate with a child process.
+
+
