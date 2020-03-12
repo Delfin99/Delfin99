@@ -14,7 +14,11 @@ $receivers = $receiverA
 
 # set attachment
 # $fileA = "/Users/jeong/Delfin99/Study/Powershell/smtp/Attachments/*.txt"
+# Mac
 $file = Get-ChildItem -Path "/Users/jeong/Delfin99/Study/Powershell/smtp/Attachments/" -Include "*" 
+# Windows
+# $file = Get-ChildItem -Path "C:/Users/Jeong/Delfin99/Delfin99/Study/Powershell/smtp/Attachments/" -Include "*" 
+
 
 $files = $file.fullname
 
